@@ -37,6 +37,9 @@ without doing any useful work.
 - Place a web application firewall (WAF) between the front end and the Internet.
 - Place each tier in its own subnet, and use subnets as a security boundary.
 - Restrict access to the data tier, by allowing requests only from the middle tier(s).
+- Do not allow direct RDP or SSH access to VMs that are running application code. Instead, operators
+should log into a jumpbox, also called a bastion host. This is a VM on the network that administrators use
+to connect to the other VMs.
 
 ## Example : N-tier architecture running on VMs
 ![N-Tier!](/images/n-tier-example.png)
