@@ -8,11 +8,11 @@ However, These trends bring new challenges. Application states are distributed. 
 ## Design Steps
 ### Choosing Architectural Style
  1. [N-Tier](/n-tier.md)
- 2. Microservices
+ 2. [Microservices](/microservices.md)
  3. [Web-queue-worker](/web-queue-worker.md)
- 4. Event Driven
- 5. Big Compute
- 6. Big Data
+ 4. [Event Driven](/event-driven.md)
+ 5. [Big Compute](/big-compute.md)
+ 6. [Big Data](/big-data.md)
 
 ### Technology choices
 1. Compute
