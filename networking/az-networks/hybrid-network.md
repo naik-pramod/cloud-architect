@@ -18,13 +18,13 @@ A VPN gateway can send encrypted traffic between the two networks.
 #### Topologies using VPN Gateways
 
 - Site-to-Site
-  ![site-to-site!](/images/site-to-site.png)
+  ![site-to-site!](/networking/az-networks/images/site-to-site.png)
 
 - Multi-Site 
-  ![multi-site!](/images/multi-site.png)
+  ![multi-site!](/networking/az-networks/images/multi-site.png)
 
 - Point-to-Site 
-  ![point-to-site!](/images/point-to-site.png)
+  ![point-to-site!](/networking/az-networks/images/point-to-site.png)
 
 #### Design and implement Azure VPN Gateway
 
