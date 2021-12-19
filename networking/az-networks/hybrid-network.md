@@ -20,8 +20,14 @@ A VPN gateway can send encrypted traffic between the two networks.
 - Site-to-Site
   ![site-to-site!](/networking/az-networks/images/site-to-site.PNG)
 
+
+
 - Multi-Site 
   ![multi-site!](/networking/az-networks/images/multi-site.PNG)
+
+
+
+
 
 - Point-to-Site 
   ![point-to-site!](/networking/az-networks/images/point-to-site.PNG)
