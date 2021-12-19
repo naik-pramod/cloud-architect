@@ -15,6 +15,12 @@ VPN Gateway is used to :
 
 A VPN gateway can send encrypted traffic between the two networks.
 
+Within each virtual network gateway there are two or more virtual machines (VMs).
+
+These VMs have been deployed to a special subnet that you specify, called the gateway subnet. 
+
+They contain routing tables for connections to other networks, along with specific gateway services
+
 #### Topologies using VPN Gateways
 
 - Site-to-Site
