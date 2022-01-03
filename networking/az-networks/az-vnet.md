@@ -10,24 +10,23 @@
 
 When creating a VNet, it is recommended that you use the address ranges for private, non-routable address spaces:
 
-10.0.0.0 - 10.255.255.255 (10/8 prefix)
-172.16.0.0 - 172.31.255.255 (172.16/12 prefix)
-192.168.0.0 - 192.168.255.255 (192.168/16 prefix)
+10.0.0.0 - 10.255.255.255 (10/8 prefix) <br/>
+172.16.0.0 - 172.31.255.255 (172.16/12 prefix) <br/>
+192.168.0.0 - 192.168.255.255 (192.168/16 prefix) <br/>
 
 **Non-routable addresses**
-They are range of IPs set aside for use for anyone and these cannot be routed/accessible on internet.
+They are range of IPs set aside for use for anyone and these cannot be routed/accessible on internet.<br/>
 
 Azure assigns resources in a virtual network a private IP address from the address space that you provision.
 
-It is important to note that Azure reserves 5 IP addresses within each subnet.
+It is important to note that Azure reserves 5 IP addresses within each subnet.<br/>
+These are x.x.x.0-x.x.x.3 and the last address of the subnet. <br/>
+x.x.x.1-x.x.x.3 is reserved in each subnet for Azure services.<br/>
 
-These are x.x.x.0-x.x.x.3 and the last address of the subnet.
-x.x.x.1-x.x.x.3 is reserved in each subnet for Azure services.
-
-x.x.x.0: Network address
-x.x.x.1: Reserved by Azure for the default gateway
-x.x.x.2, x.x.x.3: Reserved by Azure to map the Azure DNS IPs to the VNet space
-x.x.x.255: Network broadcast address
+x.x.x.0: Network address <br/>
+x.x.x.1: Reserved by Azure for the default gateway <br/>
+x.x.x.2, x.x.x.3: Reserved by Azure to map the Azure DNS IPs to the VNet space <br/>
+x.x.x.255: Network broadcast address <br/>
 
 The number of usable IP addresses per subnet is 2^H – 5.
 
