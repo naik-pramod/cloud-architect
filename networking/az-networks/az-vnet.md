@@ -40,6 +40,8 @@ x.x.x.1: Reserved by Azure for the default gateway
 x.x.x.2, x.x.x.3: Reserved by Azure to map the Azure DNS IPs to the VNet space
 x.x.x.255: Network broadcast address
 
+The number of usable IP addresses per subnet is 2^H – 5.
+
 ### Determine a naming convention
 ----------------------------------------------------------
 |Resource Type|Workload/Application|Envionment|AzureRegion|
@@ -47,3 +49,10 @@ x.x.x.255: Network broadcast address
 ----------------------------------------------------------------------------
 |Envionment|Subscription|Workload/Application Name|Resource Type|AzureRegion|
 ----------------------------------------------------------------------------
+
+### Analyze Subnetting and Addressing Needs
+
+- Which hosts should be grouped together into a subnet?
+- How many subnets does this internetwork require?
+- How many host IP addresses does each subnet require?
+- Will we use a single subnet size for simplicity, or not?
