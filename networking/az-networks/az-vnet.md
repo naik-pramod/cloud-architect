@@ -21,7 +21,6 @@ Azure assigns resources in a virtual network a private IP address from the addre
 
 It is important to note that Azure reserves 5 IP addresses within each subnet.<br/>
 These are x.x.x.0-x.x.x.3 and the last address of the subnet. <br/>
-x.x.x.1-x.x.x.3 is reserved in each subnet for Azure services.<br/>
 
 x.x.x.0: Network address <br/>
 x.x.x.1: Reserved by Azure for the default gateway <br/>
@@ -36,9 +35,3 @@ Resource Type-Workload/Application-Envionment-AzureRegion
 
 Envionment-Subscription-Workload/Application Name-Resource Type-AzureRegion
 
-### Analyze Subnetting and Addressing Needs
-
-- Which hosts should be grouped together into a subnet?
-- How many subnets does this internetwork require?
-- How many host IP addresses does each subnet require?
-- Will we use a single subnet size for simplicity, or not?

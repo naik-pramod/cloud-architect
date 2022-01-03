@@ -34,8 +34,9 @@
 - Forward DNS for IPv6 is supported for Azure public DNS. Reverse DNS isn't supported.
 - Routing Preference and cross-region load-balancing isn't supported.
 
-
-
+### NAT
+NAT allows multiple companies to use the exact same private IP network, using the same IP addresses as other companies while still connecting to the Internet. 
+![NAT!](/networking/az-networks/images/NAT.PNG)
 
 ## Hub and Spoke Topology
 
