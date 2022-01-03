@@ -50,5 +50,3 @@ Azure VNets enable
 - Filtering network traffic
 - Routing network traffic
 
-### Design considerations for Azure Virtual Networks
-#### Address space and subnets
